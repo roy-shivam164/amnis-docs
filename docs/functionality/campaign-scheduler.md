@@ -4,13 +4,11 @@ sidebar_position: 6
 
 # Campaign Scheduler
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+It allows users to create campaigns like flowcharts using dialog options such as **Action**, **Trigger**, **Rule**, and **End**.
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+## Features
 
-## Create your first React Page
+- Actions
 
 Create a file at `src/pages/my-react-page.js`:
 
