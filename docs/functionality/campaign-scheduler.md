@@ -68,7 +68,7 @@ for how much duration they want to wait until the condition is satisfied.
 ![Example banner](../../src/assets/rule1.png) ![Example banner](../../src/assets/rule2.png)<br></br>![Example banner](../../src/assets/rule3.png)
 :::
 
-## 3. End
+## 4. End
 
 It is used to insert an End Node, denoting the End of the Campaign.<br></br>
 :::tip snapshot
