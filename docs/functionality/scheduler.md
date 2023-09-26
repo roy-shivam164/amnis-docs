@@ -4,40 +4,55 @@ sidebar_position: 3
 
 # Scheduler
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+The **Scheduler** is helpful when you might be in the situation where you just want to send bulk Email or SMS to specific group of users then this gonna be really helpful.
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+In short we have two way of interaction under Scheduler:
+<ul>
+<li>E-mail</li>
+<li>SMS</li>
+</ul>
 
-## Create your first React Page
 
-Create a file at `src/pages/my-react-page.js`:
 
-```jsx title="src/pages/my-react-page.js"
-import React from "react";
-import Layout from "@theme/Layout";
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+<ol>
+<h3><li>Email</li></h3>
+  <ul>
+    <li>
+    Select the Email Template you want to send
+    </li>
+    <li>
+    Choose the date when you want to fire this campaign
+    </li>
+    <li>
+    Select the Query Name to select who are your targeted users.
+    </li>
+    <li>
+    Submit
+    </li>
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+  </ul>
 
-## Create your first Markdown Page
+![Example banner](../../src/assets/Email.png)
+<br></br>
 
-Create a file at `src/pages/my-markdown-page.md`:
+  <h3><li>SMS</li></h3>
+<ul>
+    <li>
+    Select the SMS Template you want to send
+    </li>
+    <li>
+    Choose the date when you want to fire this campaign
+    </li>
+    <li>
+    Select the Query Name to select who are your targeted users.
+    </li>
+    <li>
+    Submit
+    </li>
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
+  </ul>
+</ol>
 
-This is a Markdown page
-```
+![Example banner](../../src/assets/SMS.png)
 
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
