@@ -7,13 +7,11 @@ sidebar_position: 3
 The **Scheduler** is helpful when you might be in the situation where you just want to send bulk Email or SMS to specific group of users then this gonna be really helpful.
 
 In short we have two way of interaction under Scheduler:
+
 <ul>
 <li>E-mail</li>
 <li>SMS</li>
 </ul>
-
-
-
 
 <ol>
 <h3><li>Email</li></h3>
@@ -55,4 +53,3 @@ In short we have two way of interaction under Scheduler:
 </ol>
 
 ![Example banner](../../src/assets/SMS.png)
-
