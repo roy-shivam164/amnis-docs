@@ -12,47 +12,35 @@ Here, you can filter the list of users for campaigns and make queries as per req
 
 ## Features
 
-<ol>
-<li>Create Queries based on multiple tables joins having multiple conditions as well.</li>
-<li>List down all the previous Queries that have been made so far and saved them in DB in Saved Queries Section.</li>
-<li>Provides the result of the Query that the user creates.</li>
-<li>Users also have the option to Toggle the Query that has been created using Preview Query Button below SQL Execution Result.</li>
-</ol>
+- Create Queries based on multiple tables joins having multiple conditions as well.
+- List down all the previous Queries that have been made so far and saved them in DB in Saved Queries Section.
+- Provides the result of the Query that the user creates.
+- Users also have the option to Toggle the Query that has been created using Preview Query Button below SQL Execution Result.
 
 ### Sub-Features
 
-<ol>
-<h3><li>SQL Execution Result</li></h3>
-  <ul>
-    <li>
-    Provides option for downloading query results in CSV format.
-    </li>
-    <li>
-    User can copy the created Query using copy icon
-    </li>
-    <li>
-      User can save the Query in the Database
-    </li>
+### 1. SQL Execution Result
 
-  </ul>
+- Provides option for downloading query results in CSV format.
 
-![Example banner](../../src/assets/sql_result.png)
-<br></br>
+- User can copy the created Query using copy icon
 
-  <h3><li>Saved Queries</li></h3>
-  <ul>
-    <li>
-    Here, all the queries that have been created earlier and saved using the save option, are listed in the form of cards.
-    </li>
-    <li>
-    Each saved Query card represents the saved query, which the user can RUN, COPY, DELETE, and EDIT based on interests.
-    </li>
-    <li>
-      Also have a paginator for cases when there are too many queries and does not fit on one screen.
-    </li>
+- User can save the Query in the Database
+  :::tip Snapshot
+  ![Example banner](../../src/assets/sql_result.png)
+  :::
 
-  </ul>
-</ol>
+<!-- ![Example banner](../../src/assets/sql_result.png) -->
 
-![Example banner](../../src/assets/query_builder1.png)
-![Example banner](../../src/assets/query_builder2.png)
+### 2. Saved Queries
+
+- Here, all the queries that have been created earlier and saved using the save option, are listed in the form of cards.
+- Each saved Query card represents the saved query, which the user can RUN, COPY, DELETE, and EDIT based on interests.
+- Also have a paginator for cases when there are too many queries and does not fit on one screen.
+  :::tip Snapshots
+  ![Example banner](../../src/assets/query_builder1.png)
+  ![Example banner](../../src/assets/query_builder2.png)
+  :::
+
+<!-- ![Example banner](../../src/assets/query_builder1.png)
+![Example banner](../../src/assets/query_builder2.png) -->
