@@ -4,40 +4,11 @@ sidebar_position: 2
 
 # SMS Templates
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+- It allows users to select various SMS Templates that can be used to send SMS via Twilio as well as Quiq.
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+- Here, users can also create, edit, delete, and update a particular SMS template.
 
-## Create your first React Page
+:::tip Snapshot of SMS templates
+![Example banner](https://cyber-group.visualstudio.com/14387330-a399-4d18-9305-480aa7332758/_apis/git/repositories/159a0566-bccb-44c5-822c-e9817724fb96/Items?path=/.attachments/Screenshot%202023-05-23%20143656-f004ec12-64bd-413e-801f-4399ea3c4c8e.png&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster)
 
-Create a file at `src/pages/my-react-page.js`:
-
-```jsx title="src/pages/my-react-page.js"
-import React from "react";
-import Layout from "@theme/Layout";
-
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
-
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
-
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+:::

@@ -4,40 +4,10 @@ sidebar_position: 1
 
 # Email Templates
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+- It allows users to select various email templates that can be used to send emails while creating campaigns. For now, it provides templates from Twilio only.
+- There is sync functionality in this section which provides us to fetch the latest email templates available from Twilio API.
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+:::tip Snapshot of Email templates
+![Example banner](https://cyber-group.visualstudio.com/14387330-a399-4d18-9305-480aa7332758/_apis/git/repositories/159a0566-bccb-44c5-822c-e9817724fb96/Items?path=/.attachments/Screenshot%202023-05-23%20143517-4265736f-a39f-4269-9a09-8a6d59745fbb.png&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster)
 
-## Create your first React Page
-
-Create a file at `src/pages/my-react-page.js`:
-
-```jsx title="src/pages/my-react-page.js"
-import React from "react";
-import Layout from "@theme/Layout";
-
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
-
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
-
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+:::

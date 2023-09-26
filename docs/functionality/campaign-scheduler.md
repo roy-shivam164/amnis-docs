@@ -71,7 +71,7 @@ for how much duration they want to wait until the condition is satisfied.
 ## 3. End
 
 It is used to insert an End Node, denoting the End of the Campaign.<br></br>
-:::tip Image 1
+:::tip snapshot
 ![Example banner](../../src/assets/Screenshot%202023-09-26%20104236.png)
 :::
 

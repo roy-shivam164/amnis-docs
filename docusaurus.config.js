@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Amnis",
   tagline: "Generate your leads here",
-  favicon: "img/favicon.ico",
+  favicon: "img/home.png",
 
   // Set the production url of your site here
   url: "https://your-docusaurus-test-site.com",
