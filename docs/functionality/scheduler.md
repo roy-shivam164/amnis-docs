@@ -8,48 +8,27 @@ The **Scheduler** is helpful when you might be in the situation where you just w
 
 In short we have two way of interaction under Scheduler:
 
-<ul>
-<li>E-mail</li>
-<li>SMS</li>
-</ul>
+- **E-mail**
+- **SMS**
 
-<ol>
-<h3><li>Email</li></h3>
-  <ul>
-    <li>
-    Select the Email Template you want to send
-    </li>
-    <li>
-    Choose the date when you want to fire this campaign
-    </li>
-    <li>
-    Select the Query Name to select who are your targeted users.
-    </li>
-    <li>
-    Submit
-    </li>
+## 1.Email
 
-  </ul>
+- Step-1: Select the Email Template you want to send
 
-![Example banner](../../src/assets/Email.png)
-<br></br>
+- Step-2: Choose the date when you want to fire this campaign
+- Step-3: Select the Query Name to select who are your targeted users.
+- Step-4: Submit
+  :::tip Snapshot
+  ![Example banner](../../src/assets/Email.png)
+  :::
 
-  <h3><li>SMS</li></h3>
-<ul>
-    <li>
-    Select the SMS Template you want to send
-    </li>
-    <li>
-    Choose the date when you want to fire this campaign
-    </li>
-    <li>
-    Select the Query Name to select who are your targeted users.
-    </li>
-    <li>
-    Submit
-    </li>
+## 2.SMS
 
-  </ul>
-</ol>
+- Step-1: Select the SMS Template you want to send
 
-![Example banner](../../src/assets/SMS.png)
+- Step-2: Choose the date when you want to fire this campaign
+- Step-3: Select the Query Name to select who are your targeted users.
+- Step-4: Submit
+  :::tip Snapshot
+  ![Example banner](../../src/assets/SMS.png)
+  :::
