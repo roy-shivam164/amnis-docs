@@ -1,6 +1,7 @@
 ---
-slug: welcome
-title: Welcome
+slug: about
+title: Meet the Team
+
 authors: [slorber, yangshun]
 tags: [facebook, hello, docusaurus]
 ---
